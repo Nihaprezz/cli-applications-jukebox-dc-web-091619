@@ -20,6 +20,5 @@ def help
 end
 
 def list(songs)
-  songs.each do |song_name|
-    p song_name
+  songs.each_with_index{|val, index| puts "#{index + 1}. #{val}"}
 end
