@@ -20,6 +20,6 @@ def help
 end
 
 def play(songs)
-  prints "Please enter a song name or number:"
+  puts "Please enter a song name or number:"
   user_input = gets.strip
 end
