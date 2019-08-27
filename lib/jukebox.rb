@@ -50,13 +50,13 @@ def run(songs)
   
   while user_input != "exit"
     if user_input == "list"
-      list
+      list(songs)
       user_input = prompt
     elsif user_input == "help"
       help
       user_input = prompt
     elsif user_input == "play"
-      play
+      play(songs)
       user_input = prompt
     elsif user_input == "help"
       help
