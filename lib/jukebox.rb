@@ -24,5 +24,5 @@ def play(songs)
   user_input = gets.strip
   user_input = user_input.to_i
   
-  puts user_input
+  songs.length
 end
