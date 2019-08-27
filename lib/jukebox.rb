@@ -28,6 +28,7 @@ def play(songs)
   if user_input >= songs.length 
     puts "Invalid input, please try again"
   else 
-    puts "Playing "
+    playing_song = songs[user_input]
+    puts playing_song
   end
 end
