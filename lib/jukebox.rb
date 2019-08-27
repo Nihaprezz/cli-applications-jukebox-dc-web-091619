@@ -47,4 +47,6 @@ def run(songs)
   while user_input != "exit"
   
   end
+  
+  exit_jukebox
 end
