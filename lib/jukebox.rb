@@ -24,5 +24,9 @@ def play(songs)
   user_input = gets.strip
   user_input = user_input.to_i
   
-  songs.length
+  if user_input > songs.length 
+    puts "Invalid input, please try again"
+  else 
+    puts "Playing #{songs[user_input - 1]}"
+  end
 end
