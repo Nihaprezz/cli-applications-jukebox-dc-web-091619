@@ -23,10 +23,11 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
   user_input = user_input.to_i
+  user_input = user_input - 1
   
-  if user_input > songs.length 
+  if user_input > songs.length -1
     puts "Invalid input, please try again"
   else 
-    puts "Playing #{songs[user_input - 1]}"
+    puts "Playing #{songs[user_input]}"
   end
 end
