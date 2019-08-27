@@ -40,9 +40,14 @@ def exit_jukebox
   puts "Goodbye"
 end
 
+def prompt()
+  puts "Please enter a command:"
+  gets.chomp()
+end
+
 def run(songs)
   puts "Please enter a command:"
-  user_input = gets.strip
+  user_input = prompt
   
   while user_input != "exit"
     if user_input == "list"
