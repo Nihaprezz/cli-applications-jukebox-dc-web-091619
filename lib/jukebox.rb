@@ -42,7 +42,7 @@ end
 
 def run(songs)
   puts "Please enter a command:"
-  user_input = gets.strip
+  input = prompt
   
   while user_input != "exit"
   
