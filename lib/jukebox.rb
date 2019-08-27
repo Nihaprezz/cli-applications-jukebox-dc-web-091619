@@ -20,5 +20,6 @@ def help
 end
 
 def list(songs)
-
+  songs.each do |song_name|
+    p song_name
 end
