@@ -24,6 +24,6 @@ def play(songs)
   user_input = gets.strip
   picked_song = songs[user_input.to_i]
   
-  puts ppicked_song
+  puts picked_song
   
 end
